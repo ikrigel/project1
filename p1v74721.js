@@ -2,7 +2,7 @@ var nullHour=false;
 function addNote(note, date, hour,b3) {
   
   let n = true;
-  let d = true;
+  let d = true ;
   //date.value = "2021-06-30";
   if (note.value === ""|| note.value.length<4) {
     alert(`Please add more text to note - more than 3 Letters `);
